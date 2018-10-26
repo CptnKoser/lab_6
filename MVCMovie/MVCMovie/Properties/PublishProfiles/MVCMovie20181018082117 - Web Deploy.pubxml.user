@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAGKDKkzizFU2FiW86nAYZIQAAAAACAAAAAAAQZgAAAAEAACAAAAA30LlKaO2k6jrxO7o0F08UyzA77K4zuvwftvYOl3L4/gAAAAAOgAAAAAIAACAAAACncpjOeiD3IgvBPgZv6KvxsMA10/kx0QZNzTUJcR/h6IAAAAD1mpanyLL+P1elZOqdMR8atxd1xOyiUyVeId+pZFiod6czqFUPhxOl+UcWxdRT8cJ+tTNZ0WKLfJ/1zYQXTywvHFgIVQcwssAOssdh84dANM5VfLnZ6TorPhl782iZOXXDCGBuQLyvL9YJ+PwqZvdo/FVqWcQdy+i/EHgkFJG3KUAAAAAr79Sb1naoUKTY4lsVOcpFef/OGi3a4k8t1McdnqhrOG7+nJUiDP5rHnn/XTet82cvkxCj7z6aPwrTTEyBXmGr</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="MVCMovieContext">
+      <Value>Data Source=tcp:mvcmovie20181018082117dbserver.database.windows.net,1433%3bInitial Catalog=MVCMovieBkoser_db%3bUser Id=bkoser%40mvcmovie20181018082117dbserver%3bPassword=Boomboom1996</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="MVCMovie.Models.MVCMovieContext">
+      <Value>Data Source=tcp:mvcmovie20181018082117dbserver.database.windows.net,1433%3bInitial Catalog=MVCMovieBkoser_db%3bUser Id=bkoser%40mvcmovie20181018082117dbserver%3bPassword=Boomboom1996</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
